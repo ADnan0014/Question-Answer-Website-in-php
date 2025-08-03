@@ -1,0 +1,62 @@
+/* Anchor Tag Styling */
+a {
+    color: #00aaff !important;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Page Headings */
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Margin Utility */
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+/* Question List Box */
+.question-list {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 12px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+.question-list:hover {
+    background-color: #eef9ff;
+}
+
+/* Question Titles */
+.question-list h4,
+.question-title {
+    font-size: 18px;
+    margin: 0;
+    color: #1c7194;
+}
+
+/* Answer Text */
+.answer-wrapper {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+/* Delete Link + Question Layout */
+.my-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.my-question a:last-child {
+    color: red;
+    font-size: 14px;
+    margin-left: 15px;
+}
